@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+body {
+    background: rgb(2,0,36);
+    height: 90vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,29,113,1) 0%, rgba(17,15,17,0.9809173669467787) 0%, rgba(188,182,187,1) 100%, rgba(0,0,0,1) 100%);
+}
+nav {
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    padding-left: 117px;
+    width: 100px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.sec-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    width: 60%;
+    height: 10vh;
+    box-sizing: border-box;
+}
+.sec-part button {
+    width: 150px;
+    height: 40px;
+    padding: 5px, 26px, 5px, 26px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+/* hero-section styling */
+
+.hero-section {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+}
+.hero-sec-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+.hero-sec-left h1 {
+    font-weight: 700;
+    font-size: 42px;
+    color: #ffffff;
+}
+.hero-sec-left h1 span{
+    color: blueviolet;
+}
+.hero-sec-left p {
+    text-align: left;
+    width: 80%;
+    font-size: 16px;
+    color: #ffffff;
+}
+.hero-sec-btn {
+    background: linear-gradient(to right, rgba(255, 226, 89, 1), rgba(255, 167, 81, 1));
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.hero-sec-right {
+    width: 60%;
+    height: 100%;
+}
+.pic1 {
+    width: 358px;
+    height: 393px;
+    position: relative;
+    top: 152px;
+}
+.pic2 {
+    width: 408px;
+    height: 487px;
+    position: relative;
+    bottom: 340px;
+    left: 300px;
+    z-index: -2;
+}
