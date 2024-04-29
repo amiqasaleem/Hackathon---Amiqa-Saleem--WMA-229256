@@ -3,9 +3,9 @@
     padding: 0;
     font-family: Roboto;
 }
-body {
+header {
     background: rgb(2,0,36);
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,29,113,1) 0%, rgba(17,15,17,0.9809173669467787) 0%, rgba(188,182,187,1) 100%, rgba(0,0,0,1) 100%);
 }
 nav {
@@ -103,15 +103,24 @@ nav ul li a {
 }
 .pic1 {
     width: 358px;
-    height: 393px;
+    height: 353px;
     position: relative;
-    top: 152px;
+    top: 192px;
+    z-index: 9;
 }
 .pic2 {
     width: 408px;
-    height: 487px;
+    height: 462px;
     position: relative;
-    bottom: 340px;
+    bottom: 276px;
     left: 300px;
-    z-index: -2;
+}
+
+@media screen and (max-width:700px) {
+    header {
+        background: rgb(2,0,36);
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,29,113,1) 0%, rgba(17,15,17,0.9809173669467787) 0%, rgba(188,182,187,1) 100%, rgba(0,0,0,1) 100%);
+    }
 }
